@@ -10,7 +10,7 @@ module.exports = {
     
     extend: {
       backgroundImage:{
-        'home-image': "url('../dist/assets/image-home.jpg')"
+        'home-image': "url('./src/assets/image-home.jpg')"
       },
       colors:{
         'brand':{
