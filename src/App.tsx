@@ -1,3 +1,4 @@
+import { About } from "./components/About/About"
 import { Header } from "./components/header/Header"
 import { Home } from "./components/home/home"
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Header></Header>
       <Home></Home>
+      <About/>
     </div>
   )
 }
