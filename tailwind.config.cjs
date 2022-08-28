@@ -7,11 +7,11 @@ module.exports = {
       'title': ['Libre Baskerville'],
       'base': ['Open Sans'],
     },
-    backgroundImage:{
-      'home-image': "url(./src/assets/image-home.jpg)"
-    },
+    
     extend: {
-      
+      backgroundImage:{
+        'home-image': "url(./src/assets/image-home.jpg)"
+      },
       colors:{
         'brand':{
           base: "#112E2E",
