@@ -6,3 +6,9 @@
 li{
     @apply font-base font-normal cursor-pointer hover:text-brand-h2 hover:transition-colors hover:duration-300
 }
+h1,h2,h3,h4{
+    @apply font-title
+}
+p{
+    @apply font-base
+}
