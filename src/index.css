@@ -4,5 +4,5 @@
 @tailwind utilities;
 
 li{
-    @apply font-base font-normal
+    @apply font-base font-normal cursor-pointer hover:text-brand-h2 hover:transition-colors hover:duration-300
 }
