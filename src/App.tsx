@@ -5,7 +5,7 @@ import { Services } from "./components/Services/Services"
 
 function App() {
   return (
-    <div>
+    <div className="relative">
       <Header></Header>
       <Home></Home>
       <About/>

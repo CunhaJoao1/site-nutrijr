@@ -13,8 +13,8 @@ export function Header() {
   const {height, width} = useWindowDimensions()
 
   return (
-    <header className={`fixed w-full z-10  lg:px-[10%] 2xl:px-[20%]`}>
-      <div className='flex items-center justify-between mx-5 mt-8'>
+    <header className={`absolute w-full z-10  lg:px-[15%] `}>
+      <div className='flex items-center justify-between mx-5 mt-2'>
         <img src={logo} alt="" className='w-28 cursor-pointer'/>
 
 
