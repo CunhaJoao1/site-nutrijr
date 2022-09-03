@@ -12,7 +12,7 @@ export function Services() {
           <div className=' grid gap-1 md:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-6 2xl:relative '>
             {Object.entries(AreasObject).map(([key, value])=>{
               return(
-                <Card Description={value.description} Title={value.title}/>
+                <Card Description={value.description} Title={value.title} color={value.color} Image={value.logo}/>
               )
             })}
           </div>        

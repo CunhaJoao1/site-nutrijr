@@ -9,7 +9,7 @@ export function About() {
             className='w-full'
             />
         </div>
-        <div className='min-w-64 max-w-xl border-8 border-lime-900  p-4 m-4 lg:-ml-20 lg:pl-20 lg:p-12'>
+        <div className='min-w-64 max-w-xl border-8 border-lime-900  p-4 m-4  lg:p-12'>
             <h3 className='font-medium font-title text-xl max-w-[15rem] mb-4 lg:text-3xl lg:max-w-[20rem] '>
             Uma empresa especializada em renovar o seu negócio
             </h3>
