@@ -10,7 +10,7 @@ module.exports = {
     
     extend: {
       backgroundImage:{
-        'home-image': "url('assets/image-home.jpg')"
+        'home-image': "url('assets/bg-inferno.jpg')"
       },
       gridTemplateColumns:{
         'auto-fit': 'repeat(auto-fit, minmax(0, 1fr))',

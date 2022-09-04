@@ -1,11 +1,11 @@
 import React from 'react'
-import aboutImage from "../../assets/about.jpg"
+import aboutImage from "../../assets/shelda-gilmara.jpg"
 
 export function About() {
   return (
     <section className='mt-8 flex justify-center flex-col items-center md:flex-row'>
-        <div className='min-w-72 mx-3 max-w-[50rem]'>
-            <img src={aboutImage} alt="imagem de pessoas olhando para a tela de um notebook e rindo" 
+        <div className='mx-3 max-w-[50rem]'>
+            <img src={aboutImage} alt="" 
             className='w-full'
             />
         </div>

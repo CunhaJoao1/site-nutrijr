@@ -13,7 +13,7 @@ export function Card(props: CardProps) {
         <img src={`${props.Image}`} alt="" className='mt-10 mb-10'/>
         <h3 className='text-white text-2xl text-center'>{props.Title}</h3>
         <p className='text-center text-white mt-8 line-clamp-6 px-10'>{props.Description}</p>
-        <button className='font-base bg-brand-h2 py-2 px-8 mt-2 text-white'> SAIBA MAIS</button>
+        <button className='font-base bg-brand-h2 py-2 px-8 mt-2 text-white hover:brightness-110 hover:transition-all'> SAIBA MAIS</button>
     </div>
   )
 }
